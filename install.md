@@ -1,55 +1,20 @@
-# Learning Julia
+# Getting started with AlgebraicJulia
+
+## Learning Julia
 
 The [Julia documentation](https://docs.julialang.org/en/v1/) is your go to resource. There are also [Learning Resources](https://julialang.org/learning/) available. 
 
 Jane Herriman gave a great introduction to Julia on [youtube](https://www.youtube.com/watch?v=8h8rQyEpiZA). It is 2hr 24min and the tutorial materials are [on github](https://github.com/JuliaAcademy/JuliaTutorials).
 
-# Programming Environment
+## Programming Environment
 
-## Installing Locally
+To install Julia, please follow the directions on the [Julia Downloads](https://julialang.org/downloads/) page. Make sure to install the current stable release v1.7.3. No other versions of julia will be supported in this class.
 
-If you prefer to run Julia locally, please follow the directions on the [Julia Downloads](https://julialang.org/downloads/) page. Make sure to install the current stable release v1.6.2. No other versions of julia will be supported in this class.
+To install [Graphviz](https://graphviz.org/download/), you can use the system package manager such as `sudo apt install graphviz` (Debian based Linux) or `brew install graphviz` (MacOS). Or these instructions on [Windows](https://graphviz.org/download/#windows).
 
-To install [graphviz](https://graphviz.org/download/), you can use the system package manager such as `sudo apt install graphviz` (Debian based Linux) or `brew install graphviz` (MacOS). Or these instructions on [windows](https://graphviz.org/download/#windows).
+At this point you can install `IJulia` as above. Start a julia session and run `using Pkg; Pkg.add("IJulia");`. 
 
-At this point you can install `IJulia` as above. Start a julia session and run `using Pkg; Pkg.add("IJulia");`.
-
-## Connecting to HiPerGator
-
-If for any reason, you can't install locally or you would like to gain experience in using a cluster computing resource, I have arranged HiPerGator resources for the class.
-
-Make sure that you are on the campus network or vpn
-
-1. Log in to JupyterHub at UF http://jhub.rc.ufl.edu/hub/spawn
-2. Start a new terminal
-3. Load the julia module by running `module load julia`
-4. Start a julia session by running `julia`
-5. Install the IJulia library, which we need to open julia notebooks in Jupyter. `using Pkg; Pkg.add("IJulia");` This will load the julia package manager library and then install the [IJulia.jl](https://github.com/JuliaLang/IJulia.jl) package. You can read more about [IJulia](https://julialang.github.io/IJulia.jl/stable/) in their documentation.
-6. Because we are using HiPerGator's version of Jupyter, we might need to add a kernel for the latest version of Julia. The [instructions](https://julialang.github.io/IJulia.jl/stable/manual/installation/#Installing-additional-Julia-kernels) tell us to run the following commands in the Julia prompt.
-
-```julia
-using IJulia
-installkernel("Julia")
-```
-
-7. Create a new notebook using your fresh Julia 1.6.2 kernel.
-
-## Graphviz Support
-
-In order to render diagrams we need to make sure that graphviz is installed on our computer. HiPerGator has a recent version of Graphviz installed using the module system. To access it, you will want to add this to your `~/.bashrc` file
-
-```shell
-module load julia
-module load graphviz
-```
-
-You can test that graphviz is loaded by running `;dot -h` which should print out the help text for the graphviz `dot` command.
-
-This will cause your load both the julia module and the graphviz module into your environment for every shell that you spawn.
-
-If your notebook does not have the module loaded, you can run `;module load graphviz` from inside the notebook. Starting a line with a semicolon (`;`) tells julia to run that line with the system shell instead of the julia runtime. So if you want to access any functionality in the system shell you can always type `;cmd` to run the command `cmd` in the shell. This is handy when performing system tasks like manipulating files with `;ls`, `;mv`, `;rm`, and `;cp` or when performing git operations like `;git clone` or `;git commit` 
-
-# Installing Catlab
+## Installing Catlab
 
 Now that you have the Julia environment installed, we can install Catlab. You can access the julia package manager using two interfaces. 
 
@@ -61,17 +26,15 @@ Note on `Pkg.add` vs `Pkg.dev` in order to edit the source code of a library, yo
 1. Library access: `using Pkg; Pkg.develop("Catlab")`
 2. Pkg-REPL mode: `]dev Catlab`
 
-# Using Catlab
+## Using Catlab
 
 Now we can load up the Catlab library and start using it. The julia keyword `using` loads a module into the current namespace. When working in a notebook or REPL session, the current namespace is called `Main`. The following Catlab modules will be helpful for working with ACT concepts up to Ch 2 of our textbook.
 
 ```julia
 using Catlab
 using Catlab.Theories           # The Categorical Logic core of Catlab
-using Catlab.Present            # Presenting algebraic structures
 using Catlab.CategoricalAlgebra # Data Structures like FreeDiagrams
 using Catlab.Graphics           # Generic Drawing APIs
-using Catlab.Graphics.Graphviz  # Drawing with Graphviz
 using Catlab.WiringDiagrams     # Section 2.2
 ```
 
@@ -91,7 +54,7 @@ d = FreeDiagram(P)
 to_graphviz(d)
 ```
 
-# Example Codes
+## Example Codes
 
 Practice running Catlab code using the examples prepared for this class from the Catlab Documentation. The raw julia files are in the [repository](https://github.com/AlgebraicJulia/Catlab.jl/tree/master/docs/literate/sketches) and there are [rendered html versions](https://algebraicjulia.github.io/Catlab.jl/dev/generated/sketches/partitions/) in the Catlab [docs](https://algebraicjulia.github.io/Catlab.jl/dev/) 
 
