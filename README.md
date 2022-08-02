@@ -8,9 +8,10 @@ For computer setup, see our [installation instructions](install.md) for Julia an
 ## Schedule
 
 ### Tuesday, August 8
+- Orientation - [[slides](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/slides/Orientation.pdf)]
 - Applied category theory in epidemiology
 - Graphs and C-Sets - [[slides](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/slides/csets.html)]
-- Introduction to Petri nets
+- Introduction to Petri nets - [[slides](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/slides/IntroductionToPetriNets.pdf)]
 - Julia basics
 
 ### Wednesday, August 9
