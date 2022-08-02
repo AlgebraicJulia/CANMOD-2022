@@ -2,7 +2,7 @@
 
 This repo contains instructional materials for the 2022 Workshop on Compositional Methods for Health Modeling, hosted by [CANMOD](https://canmod.net/) (Canadian Network for Modeling Infectious Diseases).
 
-For computer setup, see our [installation instructions](install.md) for Julia and AlgebraicJulia.
+For computer setup, see our [installation instructions](install.md) for Julia and AlgebraicJulia (also could refer to a [step-by-step version installation instructions](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/Software%20install%20instructions.pdf)).
 
 
 ## Schedule
