@@ -19,8 +19,8 @@ A detailed schedule with times can be found [here](https://docs.google.com/docum
 ### Wednesday, August 9
 - AlgebraicJulia introduction
 - Coproducts and pushouts
-- Open systems
-- Composing Petri nets
+- Open systems - [[slides](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/slides/OpenSystems.pdf)] [[notebook](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/examples/Composing%20Petri%20Nets/open_systems.ipynb)]
+- Composing Petri nets - [[slides](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/slides/ComposingPetriNets.pdf)] [[notebook](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/examples/Composing%20Petri%20Nets/composing_petri_nets.ipynb)]
 
 ### Thursday, August 10
 - Introduction to stock and flow diagrams
