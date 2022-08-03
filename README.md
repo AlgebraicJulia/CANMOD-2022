@@ -11,18 +11,18 @@ A detailed schedule with times can be found [here](https://docs.google.com/docum
 
 ### Tuesday, August 8
 
-- Orientation - [[slides](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/slides/Orientation.pdf)]
+- Orientation [[slides](slides/Orientation.pdf)]
 - Applied category theory in epidemiology
-- Graphs and C-sets - [[slides](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/slides/csets.html)]
-- Introduction to Petri nets - [[slides](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/slides/IntroductionToPetriNets.pdf)]
+- Graphs and C-sets [[slides](slides/csets.html)]
+- Introduction to Petri nets [[slides](slides/IntroductionToPetriNets.pdf)]
 - Julia basics
 
 ### Wednesday, August 9
 
 - AlgebraicJulia introduction
-- Coproducts and pushouts of C-sets - [[slides](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/slides/colimits.html)
-- Open systems - [[slides](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/slides/OpenSystems.pdf)] [[notebook](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/examples/Composing%20Petri%20Nets/open_systems.ipynb)]
-- Composing Petri nets - [[slides](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/slides/ComposingPetriNets.pdf)] [[notebook](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/examples/Composing%20Petri%20Nets/composing_petri_nets.ipynb)]
+- Coproducts and pushouts of C-sets [[slides](slides/colimits.html)]
+- Open systems - [[slides](slides/OpenSystems.pdf)] [[notebook](examples/Composing%20Petri%20Nets/open_systems.ipynb)]
+- Composing Petri nets [[slides](slides/ComposingPetriNets.pdf)] [[notebook](examples/Composing%20Petri%20Nets/composing_petri_nets.ipynb)]
 
 ### Thursday, August 10
 
