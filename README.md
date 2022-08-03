@@ -20,6 +20,7 @@ A detailed schedule with times can be found [here](https://docs.google.com/docum
 ### Wednesday, August 9
 
 - AlgebraicJulia introduction
+- AlgebraicPetri introduction [[notebook](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/examples/Petri/SimplePetriNets2.ipynb)]
 - Coproducts and pushouts of C-sets [[slides](slides/colimits.html)]
 - Open systems [[slides](slides/OpenSystems.pdf)] [[notebook](examples/Composing%20Petri%20Nets/open_systems.ipynb)]
 - Composing Petri nets [[slides](slides/ComposingPetriNets.pdf)] [[notebook](examples/Composing%20Petri%20Nets/composing_petri_nets.ipynb)]
