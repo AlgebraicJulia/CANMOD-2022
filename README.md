@@ -15,13 +15,13 @@ A detailed schedule with times can be found [here](https://docs.google.com/docum
 - Applied category theory in epidemiology
 - Graphs and C-sets [[slides](slides/csets.html)]
 - Introduction to Petri nets [[slides](slides/IntroductionToPetriNets.pdf)]
-- Julia basics
+- Julia basics [[code](julia/intro.jl)]
 
 ### Wednesday, August 9
 
 - AlgebraicJulia introduction
 - Coproducts and pushouts of C-sets [[slides](slides/colimits.html)]
-- Open systems - [[slides](slides/OpenSystems.pdf)] [[notebook](examples/Composing%20Petri%20Nets/open_systems.ipynb)]
+- Open systems [[slides](slides/OpenSystems.pdf)] [[notebook](examples/Composing%20Petri%20Nets/open_systems.ipynb)]
 - Composing Petri nets [[slides](slides/ComposingPetriNets.pdf)] [[notebook](examples/Composing%20Petri%20Nets/composing_petri_nets.ipynb)]
 
 ### Thursday, August 10
