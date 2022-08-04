@@ -27,7 +27,7 @@ A detailed schedule with times can be found [here](https://docs.google.com/docum
 ### Thursday, August 10
 
 - Introduction to stock and flow diagrams
-- Composing stock and flow diagrams
+- Composing stock and flow diagrams [[slides](slides/Composing%20Stock%20and%20Flow%20Diagrams.pdf)][[Exercise Simple](examples/StockFlow/simple_schema/practices/SIRV%20composition%20model%20simple.ipynb)] [[Exercise hard](examples/StockFlow/simple_schema/practices/SEIRVD%20model%20hard.ipynb)][[Examples in Complex Schema](examples/StockFlow/full_fledged_schema)]
 - Model stratification with limits
 
 ### Friday, August 11
