@@ -28,7 +28,7 @@ A detailed schedule with times can be found [here](https://docs.google.com/docum
 
 - Introduction to stock and flow diagrams [[slides](slides/IntroductionToStockFlowDiagrams.pdf)]
 - Composing stock and flow diagrams [[slides](slides/ComposingStockFlowDiagrams.pdf)][[Exercise Simple](examples/StockFlow/simple_schema/practices/SIRV%20composition%20model%20simple.ipynb)] [[Exercise hard](examples/StockFlow/simple_schema/practices/SEIRVD%20model%20hard.ipynb)][[Examples in Complex Schema](examples/StockFlow/full_fledged_schema)]
-- Model stratification with limits
+- Model stratification with limits [[slides](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/slides/StratifiedModels.pdf)] [[notebook](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/examples/StratifiedModels/stratification.ipynb)]
 
 ### Friday, August 11
 
