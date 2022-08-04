@@ -19,15 +19,15 @@ A detailed schedule with times can be found [here](https://docs.google.com/docum
 ### Wednesday, August 9
 
 - AlgebraicJulia introduction
-- AlgebraicPetri introduction [[notebook](https://github.com/AlgebraicJulia/CANMOD-2022/blob/main/examples/Petri/SimplePetriNets2.ipynb)]
+- AlgebraicPetri introduction [[notebook](examples/Petri/SimplePetriNets2.ipynb)]
 - Coproducts and pushouts of C-sets [[slides](slides/colimits.html)]
 - Open systems [[slides](slides/OpenSystems.pdf)] [[notebook](examples/Composing%20Petri%20Nets/open_systems.ipynb)]
 - Composing Petri nets [[slides](slides/ComposingPetriNets.pdf)] [[notebook](examples/Composing%20Petri%20Nets/composing_petri_nets.ipynb)]
 
 ### Thursday, August 10
 
-- Introduction to stock and flow diagrams
-- Composing stock and flow diagrams [[slides](slides/Composing%20Stock%20and%20Flow%20Diagrams.pdf)][[Exercise Simple](examples/StockFlow/simple_schema/practices/SIRV%20composition%20model%20simple.ipynb)] [[Exercise hard](examples/StockFlow/simple_schema/practices/SEIRVD%20model%20hard.ipynb)][[Examples in Complex Schema](examples/StockFlow/full_fledged_schema)]
+- Introduction to stock and flow diagrams [[slides](slides/IntroductionToStockFlowDiagrams.pdf)]
+- Composing stock and flow diagrams [[slides](slides/ComposingStockFlowDiagrams.pdf)][[Exercise Simple](examples/StockFlow/simple_schema/practices/SIRV%20composition%20model%20simple.ipynb)] [[Exercise hard](examples/StockFlow/simple_schema/practices/SEIRVD%20model%20hard.ipynb)][[Examples in Complex Schema](examples/StockFlow/full_fledged_schema)]
 - Model stratification with limits
 
 ### Friday, August 11

@@ -21,7 +21,7 @@ Now that you have the Julia environment installed, we can install Catlab. You ca
 1. The library access: `using Pkg; Pkg.add("Catlab")`
 2. The `]` REPL mode: `] add Catlab`
 
-Note on `Pkg.add` vs `Pkg.dev` in order to edit the source code of a library, you have to install that library in developement mode. This will clone the repository of the software and check out the primary developement branch.
+Note on `Pkg.add` vs `Pkg.dev` in order to edit the source code of a library, you have to install that library in development mode. This will clone the repository of the software and check out the primary development branch.
 
 1. Library access: `using Pkg; Pkg.develop("Catlab")`
 2. Pkg-REPL mode: `]dev Catlab`
